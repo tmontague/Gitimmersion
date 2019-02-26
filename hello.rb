@@ -6,6 +6,14 @@ require 'greeter'
 ame = ARGV.first || "World"
 puts "Hello, #{ARGV.first}!"
 
+<<<<<<< HEAD
+=======
+puts "What's your name"
+my_name = gets.strip
+
+puts "Hello, #{my_name}!"
+
+>>>>>>> master
 class Greeter
   def initialize(who)
     @who = who
