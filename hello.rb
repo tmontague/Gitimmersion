@@ -1,4 +1,4 @@
 # Default is "World"
-# Author: Tim Montague
+# Author: Jim Weirich (jim@somewhere.com)
 ame = ARGV.first || "World"
 puts "Hello, #{ARGV.first}!"
